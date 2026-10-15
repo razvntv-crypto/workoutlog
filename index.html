@@ -7,6 +7,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
+/* hide scroll bars everywhere */
+html,body,*{scrollbar-width:none;-ms-overflow-style:none}html::-webkit-scrollbar,body::-webkit-scrollbar,*::-webkit-scrollbar{display:none;width:0;height:0;background:transparent}
+
 :root{--bg:#e9ecf1;--card:#fff;--ink:#141a26;--mute:#6b7488;--line:#d8dde7;--acc:#2a44ff;--accink:#fff;--pr:#c98a00;--ok:#16a34a;--field:#f2f4f8;
 box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e121a;--card:#171d2a;--ink:#eef1f7;--mute:#8e98ad;--line:#262e3f;--acc:#6b82ff;--accink:#0e121a;--pr:#f0b429;--ok:#34d399;--field:#0f1420}}
